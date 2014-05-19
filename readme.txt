@@ -11,7 +11,7 @@ Add a Title field to bbPress replies.
 
 == Description ==
 
-Add a Title field to bbPress replies.
+Add a Title field to bbPress replies. Requires bbPress.
 
 == Installation ==
 
