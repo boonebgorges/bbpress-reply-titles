@@ -13,6 +13,8 @@ Add a Title field to bbPress replies.
 
 Add a Title field to bbPress replies. Requires bbPress.
 
+Originally developed for [mcnrc.org at LaGuardia Community College, CUNY](http://mcnrc.org/).
+
 == Installation ==
 
 1. Install via the WordPress Dashboard.
