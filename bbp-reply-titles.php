@@ -5,7 +5,7 @@ Version: 1.0
 Description: Add titles to bbPress replies
 Author: Boone B Gorges
 Author URI: http://boone.gorg.es
-Text Domain: bbp-reply-titles
+Text Domain: bbpress-reply-titles
 Domain Path: /languages
 */
 
@@ -49,6 +49,6 @@ add_action( 'bbp_theme_before_reply_content', 'bbprt_display_markup' );
  * @since 1.0
  */
 function bbprt_enqueue_styles() {
-	wp_enqueue_style( 'bbp-reply-titles', plugins_url( 'bbp-reply-titles/css/bbp-reply-titles.css' ) );
+	wp_enqueue_style( 'bbpress-reply-titles', plugins_url( 'bbpress-reply-titles/css/bbp-reply-titles.css' ) );
 }
 add_action( 'bbp_enqueue_scripts', 'bbprt_enqueue_styles' );
